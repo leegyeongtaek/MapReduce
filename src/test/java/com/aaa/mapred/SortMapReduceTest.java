@@ -21,10 +21,10 @@ import com.client.hdfs.common.RemoteConfig;
 public class SortMapReduceTest {
 	
 	static final String inputPath = "/user/input/testData/INTLCTRY/README_TITLE_SORT.txt";
-	static final String outputPath = "/user/output/INTLCTRY/sortOutput_INTLCTRY";
+	static final String outputPath = "/user/output/INTLCTRY/sortOutput_INTLCTRY1";
 
 	@Test
-	public void testReadFile () throws Exception {
+	public void testSortMapReduce () throws Exception {
 		
 		Configuration conf = RemoteConfig.getConf();
 		
