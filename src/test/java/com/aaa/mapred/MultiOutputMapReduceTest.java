@@ -23,7 +23,7 @@ import com.client.hdfs.common.RemoteConfig;
  */
 public class MultiOutputMapReduceTest {
 	
-	static final String inputPath = "/user/input/testData/INTLCTRY/README_TITLE_SORT.txt";
+	static final String inputPath = "/user/test/input/INTLCTRY/README_TITLE_SORT.txt";
 	static final String outputPath = "/user/output/INTLCTRY/multiOutput_INTLCTRY4";
 	
 	@Test

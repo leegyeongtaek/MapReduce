@@ -19,7 +19,7 @@ import com.client.hdfs.common.RemoteConfig;
  */
 public class FileTest {
 	
-	static final String srcDir = "/user/input/testData/";
+	static final String srcDir = "/user/test/";
 	
 	@Test
 	public void testReadFile () throws Exception {

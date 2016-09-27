@@ -24,8 +24,8 @@ import com.client.hdfs.common.RemoteConfig;
  */
 public class MultiInputMapReduceTest {
 	
-	static final String inputPath1 = "/user/input/testData/INTLCTRY/README_TITLE_SORT.txt";
-	static final String inputPath2 = "/user/input/testData/OECDTTL/README_TITLE_SORT.txt";
+	static final String inputPath1 = "/user/test/input/INTLCTRY/README_TITLE_SORT.txt";
+	static final String inputPath2 = "/user/test/input/OECDTTL/README_TITLE_SORT.txt";
 	static final String outputPath1 = "/user/output/INTLCTRY/multiInput_temp";
 	static final String outputPath2 = "/user/output/INTLCTRY/multiInput_INTLCTRY";
 	
