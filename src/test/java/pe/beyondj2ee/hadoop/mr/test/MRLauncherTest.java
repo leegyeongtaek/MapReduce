@@ -28,7 +28,7 @@ public class MRLauncherTest {
 		
 		args[0] = jarAbsolutePath;		// 배포할 ".jar"의 물리적 경로 -> 추후 빌드/배포 고려해서 mapred-0.0.1-SNAPSHOT.jar를 "classpath"에 저장.
 		args[1] = "/user/test/wordcount.txt";	// 입력 디렉토리 정보를 설정 한다. (“HDFS”의 경로)
-		args[2] = "/user/output/wordcount";	// MR이 수행 완료후 결과 디렉토리를 설정 한다.
+		args[2] = "/user/output/wordcount2";	// MR이 수행 완료후 결과 디렉토리를 설정 한다.
 		
 		mrl.invokeMR(WordCount.class.getName(), args);	//  “MRLauncher” 오브젝트를 수행
 		

@@ -52,7 +52,7 @@ public class MultiInputMapper1 extends Mapper<LongWritable, Text, Text, Text> {
 				outputKey.setUpdateDate(date.toString());
 														
 				// reduce value : 해당 파일을 찾은 후 파일에서 데이터 값을 읽어온다.
-				String pathStr = "/user/input/testData/INTLCTRY/data/" + columns[0].trim(); // file path
+				String pathStr = "/user/test/input/INTLCTRY/data/" + columns[0].trim(); // file path
 				Path path = new Path(pathStr); 
 				FileSystem fs = FileSystem.get(URI.create(pathStr), context.getConfiguration());
 				
