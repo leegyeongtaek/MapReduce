@@ -21,7 +21,7 @@ import com.client.hdfs.common.RemoteConfig;
 public class SortMapReduceTest {
 	
 	static final String inputPath = "/user/test/input/INTLCTRY/README_TITLE_SORT.txt";
-	static final String outputPath = "/user/output/INTLCTRY/sortOutput_INTLCTRY1";
+	static final String outputPath = "/user/output/INTLCTRY/sortOutput_INTLCTRY4";
 
 	@Test
 	public void testSortMapReduce () throws Exception {

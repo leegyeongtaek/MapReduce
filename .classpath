@@ -33,5 +33,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_51/jre/lib/patch-hadoop_7682-1.0.x-win.jar"/>
+	<classpathentry kind="lib" path="D:/HDFS/hbase-0.98.22-hadoop2/lib/hbase-client-0.98.22-hadoop2.jar"/>
+	<classpathentry kind="lib" path="D:/HDFS/hbase-0.98.22-hadoop2/lib/hbase-common-0.98.22-hadoop2.jar"/>
+	<classpathentry kind="lib" path="D:/HDFS/hbase-0.98.22-hadoop2/lib/hbase-protocol-0.98.22-hadoop2.jar"/>
+	<classpathentry kind="lib" path="D:/HDFS/hbase-0.98.22-hadoop2/lib/hbase-server-0.98.22-hadoop2.jar"/>
+	<classpathentry kind="lib" path="D:/HDFS/hbase-0.98.22-hadoop2/lib/htrace-core-2.04.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

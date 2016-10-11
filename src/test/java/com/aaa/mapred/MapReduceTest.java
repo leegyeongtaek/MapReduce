@@ -20,7 +20,7 @@ import com.client.hdfs.common.RemoteConfig;
 public class MapReduceTest {
 	
 	static final String inputPath = "/user/test/input/INTLCTRY/README_TITLE_SORT.txt";
-	static final String outputPath = "/user/output/INTLCTRY/output_INTLCTRY";
+	static final String outputPath = "/user/output/INTLCTRY/output_INTLCTRY2";
 
 	@Test
 	public void testReadFile () throws Exception {
