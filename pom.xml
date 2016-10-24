@@ -15,7 +15,11 @@
 		<maven.resources.plugin.version>2.5</maven.resources.plugin.version>
 		<maven.surefire.plugin.version>2.12</maven.surefire.plugin.version>
 		<maven.enforcer.plugin>1.0.1</maven.enforcer.plugin>
-		<!-- <hadoop.version>1.2.1</hadoop.version> -->
+		<!-- 
+		<akka.group>org.spark-project.akka</akka.group>
+  		<akka.version>2.3.4-spark</akka.version>
+		<hadoop.version>1.2.1</hadoop.version> 
+		-->
 	</properties>
 
 	<dependencies>
@@ -79,7 +83,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.8.0</version>
+            <version>2.10.3</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -113,7 +117,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-compiler</artifactId>
-            <version>2.8.0</version>
+            <version>2.10.3</version>
         </dependency>
         <dependency>
             <groupId>com.101tec</groupId>
@@ -142,11 +146,17 @@
             <version>1.2</version>
             <scope>test</scope>
         </dependency>
- <dependency>
- 	<groupId>commons-configuration</groupId>
- 	<artifactId>commons-configuration</artifactId>
- 	<version>1.10</version>
- </dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.10</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-core_2.10</artifactId>
+		    <version>0.9.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
